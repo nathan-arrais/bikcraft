@@ -17,6 +17,7 @@
 
 .introducao img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -32,7 +33,7 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: var(--cor-5);
+    background-color: var(--cor-11);
     padding-top: 40px;
     box-sizing: inset 0 -60px var(--cor-0);
   }
